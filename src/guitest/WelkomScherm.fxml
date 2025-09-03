@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root type="VBox" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="406.0" prefWidth="585.0">
+         <children>
+            <ImageView fitHeight="416.0" fitWidth="591.0" layoutX="14.0">
+               <image>
+                  <Image url="@../../../../Semester2/images/gem.jpg" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="112.0" layoutY="77.0" prefHeight="242.0" prefWidth="276.0" style="-fx-background-color: #fafafa;">
+               <children>
+                  <Label layoutX="105.0" layoutY="14.0" text="Login" textFill="#212121">
+                     <font>
+                        <Font name="Tahoma Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane layoutX="21.0" layoutY="50.0" prefHeight="6.0" prefWidth="234.0" style="-fx-background-color: #212121;" />
+                  <TextField layoutX="64.0" layoutY="78.0" promptText="Gebuikersnaam" />
+                  <PasswordField layoutX="64.0" layoutY="121.0" promptText="Geboortedatum" />
+                  <Button layoutX="110.0" layoutY="170.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Login" textFill="WHITE" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</fx:root>

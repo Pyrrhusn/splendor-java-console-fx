@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<GridPane prefHeight="367.0" prefWidth="663.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="351.0" prefWidth="655.0">
+         <children>
+            <ImageView fitHeight="370.0" fitWidth="666.0" layoutX="-1.0">
+               <image>
+                  <Image url="@../../../../Semester2/images/gem.jpg" />
+               </image>
+            </ImageView>
+            <TextField layoutX="240.0" layoutY="117.0" promptText="Gebruikersnaam" />
+            <PasswordField layoutX="240.0" layoutY="176.0" promptText="Geboortejaar" />
+            <Label layoutX="263.0" layoutY="68.0" text="Vul u gegevens in !" textFill="WHITE" />
+            <Button layoutX="275.0" layoutY="246.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="80.0" text="Login" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

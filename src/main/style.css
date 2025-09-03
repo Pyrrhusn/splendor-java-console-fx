@@ -1,0 +1,41 @@
+.root {
+  -fx-background-color: -fx-outer-border, -fx-body-color;
+  /*-fx-background-color: black;*/
+  -fx-background-insets: 0, 6;
+  -fx-background-radius: 6px, 0px;
+  /* -fx-background-image: url("https://images.unsplash.com/photo-1585501854964-b1711c09c4c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"); */
+  -fx-background-image: url("/images/mapBackground.jpg");
+  -fx-background-size: cover;
+  -fx-background-repeat: no-repeat;
+  -fx-background-position: center;
+}
+
+.button {
+  -fx-background-color: transparent;
+  -fx-padding: 15px;
+  -fx-text-fill: "white";
+  -fx-font-size: 20px;
+  -fx-border-color: "#282828";
+  -fx-border-radius: 25px;
+  -fx-border-width: BOLD;
+}
+
+.button:hover {
+  -fx-background-color: "#282828";
+
+  -fx-font-family: "Comic Sans MS";
+  -fx-font-weight: BOLD;
+  -fx-text-fill: "white";
+  /*-fx-border-color:"#AB4642";*/
+  -fx-min-height: 50px;
+  -fx-font-size: 20px;
+  /*-fx-padding: 10px;*/
+}
+
+.lblWelkom,
+.naam,
+.geboortejaar {
+  -fx-font-size: 70px;
+  -fx-text-fill: "white";
+  -fx-font-family: "sans-serif";
+}
